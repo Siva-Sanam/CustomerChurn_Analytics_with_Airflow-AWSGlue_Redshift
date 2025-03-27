@@ -4,7 +4,7 @@
 This project implements an end-to-end data pipeline for customer churn analytics using cloud-based technologies. It extracts, transforms, and loads (ETL) data from various sources into AWS Redshift and enables advanced analytics using Athena and Power BI. The pipeline is orchestrated using Apache Airflow for automated workflows.
 
 ### Architecture 
-<img src="ProjectArchitecture.jpg">
+<img src="ProjectArchitecture.png">
 
 ### 🚀 Tech Stack
 - **Apache Airflow** – Workflow orchestration
