@@ -46,7 +46,7 @@ This project implements an end-to-end data pipeline for customer churn analytics
 ### Steps to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/customer-churn-analytics.git
+   git clone https://github.com/Siva-Sanam/CustomerChurn_Analytics_with_Airflow-AWSGlue_Redshift.git
    ```
 2. Configure AWS credentials in Airflow.
 3. Upload raw customer data to S3.
