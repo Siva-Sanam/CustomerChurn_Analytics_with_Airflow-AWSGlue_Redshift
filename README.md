@@ -1,9 +1,9 @@
 ## Customer Churn Analytics with Airflow, AWS Glue & Redshift
 
-## 📌 Project Overview
+### 📌 Project Overview
 This project implements an end-to-end data pipeline for customer churn analytics using cloud-based technologies. It extracts, transforms, and loads (ETL) data from various sources into AWS Redshift and enables advanced analytics using Athena and Power BI. The pipeline is orchestrated using Apache Airflow for automated workflows.
 
-## 🚀 Tech Stack
+### 🚀 Tech Stack
 - **Apache Airflow** – Workflow orchestration
 - **AWS Glue** – Serverless ETL processing
 - **Amazon S3** – Data storage
@@ -11,7 +11,7 @@ This project implements an end-to-end data pipeline for customer churn analytics
 - **AWS Athena** – Querying S3 data
 - **Power BI** – Data visualization
 
-## 📊 Architecture Workflow
+### 📊 Architecture Workflow
 1. **Data Ingestion**: Raw customer data is stored in Amazon S3.
 2. **ETL with AWS Glue**: Data transformation and cleaning.
 3. **Loading into Redshift**: Processed data is stored in Amazon Redshift.
@@ -19,14 +19,14 @@ This project implements an end-to-end data pipeline for customer churn analytics
 5. **Visualization with Power BI**: Insights on churn trends and customer retention strategies.
 6. **Orchestration with Airflow**: Automates the ETL workflow.
 
-## 🔹 Key Features
+### 🔹 Key Features
 - Automated data ingestion and processing
 - Scalable and serverless ETL with AWS Glue
 - High-performance querying with Redshift and Athena
 - Interactive dashboards in Power BI
 - Scheduled pipeline execution with Airflow
 
-## 📂 Project Structure
+### 📂 Project Structure
 ```
 ├── dags/                 # Apache Airflow DAGs for orchestration
 ├── scripts/              # Python scripts for ETL tasks
@@ -36,14 +36,14 @@ This project implements an end-to-end data pipeline for customer churn analytics
 ├── README.md             # Project documentation
 ```
 
-## 🛠 Setup Instructions
-### Prerequisites
+### 🛠 Setup Instructions
+#### Prerequisites
 - AWS Account
 - Apache Airflow installed
 - AWS Glue, Redshift, and S3 configured
 - Power BI installed for visualization
 
-### Steps to Run
+#### Steps to Run
 1. Clone the repository:
    ```bash
    git clone https://github.com/Siva-Sanam/CustomerChurn_Analytics_with_Airflow-AWSGlue_Redshift.git
@@ -54,7 +54,7 @@ This project implements an end-to-end data pipeline for customer churn analytics
 5. Run Airflow DAGs to automate the pipeline.
 6. Connect Power BI to Redshift/Athena for analytics.
 
-## 📈 Insights & Use Cases
+### 📈 Insights & Use Cases
 - Identify customers at risk of churning
 - Analyze retention strategies
 - Predict churn probability using data trends
