@@ -6,6 +6,10 @@ This project implements an end-to-end data pipeline for customer churn analytics
 ### Architecture 
 <img src="ProjectArchitecture.png">
 
+## Dataset Original Source
+You can use any dataset, we are mainly interested in operation side of Data Engineering (building data pipeline) 
+Here is the dataset used in the project - https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset?resource=download
+
 ### 🚀 Tech Stack
 - **Apache Airflow** – Workflow orchestration
 - **AWS Glue** – Serverless ETL processing
